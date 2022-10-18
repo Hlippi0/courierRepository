@@ -15,7 +15,7 @@ class point:
         dist  = math.sqrt((x1-x2)** 2 + (y1-y2) **2)
         return dist
 p1 = point(1,2)
-p2 = point(8,2)
+p2 = point(9,2)
 dist = p1.get_distance(p2)
 print(dist)
 
